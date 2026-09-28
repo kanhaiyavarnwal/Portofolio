@@ -6,10 +6,10 @@ export const projects = [
     description:
       'A complete commerce experience with authentication, product management, cart and checkout flows, image uploads, payments, and admin capabilities.',
     features: ['JWT Authentication', 'Razorpay Payments', 'Cloudinary', 'Cart & Checkout', 'Order Management', 'Admin Panel'],
-    stack: ['React', 'Node.js', 'Express', 'MongoDB', 'Razorpay', 'Cloudinary'],
+    stack: ['React', 'Node.js', 'Express', 'MongoDB', 'Razorpay',"COD","Stripe", 'Cloudinary'],
     accent: 'emerald',
     github: 'https://github.com/kanhaiyavarnwal/e-commerce',
-    live: 'YOUR_ECOMMERCE_LIVE_URL',
+    live: 'https://e-commerce-frontend-two-blue.vercel.app/',
   },
   {
     number: '02',
