@@ -231,33 +231,34 @@ export default function Projects() {
                       <ArrowUpRight size={14} />
                     </a>
 
+                   
                     <button
-                      type="button"
-                      onClick={() => {
-                        toast.success("This feature is coming soon");
-                      }}
-                      className="
-                        inline-flex
-                        w-full
-                        items-center
-                        justify-center
-                        gap-2
-                        rounded-xl
-                        border
-                        border-white/10
-                        px-4
-                        py-3
-                        text-xs
-                        font-semibold
-                        text-white
-                        transition
-                        hover:bg-white/5
-                        sm:w-auto
-                      "
-                    >
-                      <ArrowUpRight size={14} />
-                      Live demo
-                    </button>
+  type="button"
+  onClick={() => {
+    window.open(project.live, "_blank", "noopener,noreferrer");
+  }}
+  className="
+    inline-flex
+    w-full
+    items-center
+    justify-center
+    gap-2
+    rounded-xl
+    border
+    border-white/10
+    px-4
+    py-3
+    text-xs
+    font-semibold
+    text-white
+    transition
+    hover:bg-white/5
+    sm:w-auto
+  "
+>
+  <ArrowUpRight size={14} />
+  Live Demo
+</button>
                   </div>
                 </div>
               </div>
