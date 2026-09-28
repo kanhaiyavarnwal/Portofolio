@@ -235,6 +235,7 @@ export default function Projects() {
                     <button
   type="button"
   onClick={() => {
+    console.log("clicked")
     window.open(project.live, "_blank", "noopener,noreferrer");
   }}
   className="
