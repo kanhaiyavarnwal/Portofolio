@@ -21,7 +21,7 @@ export const projects = [
     stack: ['React', 'Node.js', 'Express', 'MongoDB', 'Cloudinary'],
     accent: 'violet',
     github: 'https://github.com/kanhaiyavarnwal/edtech-app',
-    live: 'YOUR_EDTECH_LIVE_URL',
+    live: 'https://ed-tech-platform-mu-mocha.vercel.app/',
   },
 ];
 
